@@ -1,0 +1,213 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local Message = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local Name = Instance.new("Frame")
+local Name_2 = Instance.new("TextLabel")
+local Name_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Game = Instance.new("TextLabel")
+local Game_2 = Instance.new("TextLabel")
+local Border = Instance.new("Frame")
+local Visuals = Instance.new("TextButton")
+local Aimbot = Instance.new("TextButton")
+local Misc = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local discord = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Message.Name = "Message"
+Message.Parent = ScreenGui
+Message.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Message.BorderColor3 = Color3.fromRGB(91, 18, 136)
+Message.Position = UDim2.new(0, 0, 0.181481481, 0)
+Message.Size = UDim2.new(0, 120, 0, 44)
+
+TextLabel.Parent = Message
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 153, 0, 30)
+TextLabel.Font = Enum.Font.Nunito
+TextLabel.Text = ".solutions"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Message
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 74, 0, 30)
+TextLabel_2.Font = Enum.Font.Nunito
+TextLabel_2.Text = "moon"
+TextLabel_2.TextColor3 = Color3.fromRGB(91, 18, 136)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Message
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.15384616, 0)
+TextLabel_3.Size = UDim2.new(0, 120, 0, 47)
+TextLabel_3.Font = Enum.Font.Nunito
+TextLabel_3.Text = "loaded..."
+TextLabel_3.TextColor3 = Color3.fromRGB(91, 18, 136)
+TextLabel_3.TextSize = 14.000
+
+Main.Name = " Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main.BorderColor3 = Color3.fromRGB(91, 18, 136)
+Main.Position = UDim2.new(0.248648643, 0, 0.224691361, 0)
+Main.Size = UDim2.new(0, 558, 0, 443)
+
+Name.Name = "Name"
+Name.Parent = Main
+Name.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Name.BorderColor3 = Color3.fromRGB(91, 18, 136)
+Name.Position = UDim2.new(0, 0, 0.123292394, 0)
+Name.Size = UDim2.new(0, 558, 0, 388)
+Name.ZIndex = 3
+
+Name_2.Name = "Name"
+Name_2.Parent = Name
+Name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.BackgroundTransparency = 1.000
+Name_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.Position = UDim2.new(0, 0, -0.115979381, 0)
+Name_2.Size = UDim2.new(0, 306, 0, 45)
+Name_2.ZIndex = 3
+Name_2.Font = Enum.Font.Nunito
+Name_2.Text = "solutions"
+Name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.TextSize = 17.000
+Name_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Name_3.Name = "Name"
+Name_3.Parent = Name
+Name_3.BackgroundColor3 = Color3.fromRGB(91, 18, 136)
+Name_3.BackgroundTransparency = 1.000
+Name_3.BorderColor3 = Color3.fromRGB(91, 18, 136)
+Name_3.Position = UDim2.new(0, 0, -0.141752571, 0)
+Name_3.Size = UDim2.new(0, 306, 0, 41)
+Name_3.ZIndex = 3
+Name_3.Font = Enum.Font.Nunito
+Name_3.Text = "moon"
+Name_3.TextColor3 = Color3.fromRGB(91, 18, 136)
+Name_3.TextSize = 17.000
+Name_3.TextStrokeColor3 = Color3.fromRGB(91, 18, 136)
+
+TextLabel_4.Parent = Name
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(0, 0, -0.140769407, 0)
+TextLabel_4.Size = UDim2.new(0, 558, 0, 54)
+TextLabel_4.ZIndex = 3
+TextLabel_4.Font = Enum.Font.Bodoni
+TextLabel_4.Text = "-"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Game.Name = "Game"
+Game.Parent = Name
+Game.BackgroundColor3 = Color3.fromRGB(91, 18, 136)
+Game.BackgroundTransparency = 1.000
+Game.BorderColor3 = Color3.fromRGB(91, 18, 136)
+Game.Position = UDim2.new(0.521505356, 0, -0.141752571, 0)
+Game.Size = UDim2.new(0, 267, 0, 41)
+Game.ZIndex = 3
+Game.Font = Enum.Font.Nunito
+Game.Text = "Rush"
+Game.TextColor3 = Color3.fromRGB(91, 18, 136)
+Game.TextSize = 17.000
+Game.TextStrokeColor3 = Color3.fromRGB(91, 18, 136)
+
+Game_2.Name = "Game"
+Game_2.Parent = Name
+Game_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Game_2.BackgroundTransparency = 1.000
+Game_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Game_2.Position = UDim2.new(0.521505356, 0, -0.115979381, 0)
+Game_2.Size = UDim2.new(0, 267, 0, 45)
+Game_2.ZIndex = 3
+Game_2.Font = Enum.Font.Nunito
+Game_2.Text = "Point"
+Game_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Game_2.TextSize = 17.000
+Game_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Border.Name = "Border"
+Border.Parent = Main
+Border.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Border.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Border.Position = UDim2.new(0.0447361991, 0, 0.187358916, 0)
+Border.Size = UDim2.new(0, 130, 0, 335)
+Border.ZIndex = 3
+
+Visuals.Name = "Visuals"
+Visuals.Parent = Border
+Visuals.BackgroundColor3 = Color3.fromRGB(91, 18, 136)
+Visuals.Position = UDim2.new(0.0769230798, 0, 0.268656731, 0)
+Visuals.Size = UDim2.new(0, 110, 0, 70)
+Visuals.ZIndex = 3
+Visuals.Font = Enum.Font.Nunito
+Visuals.Text = "ESP"
+Visuals.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visuals.TextSize = 14.000
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Border
+Aimbot.BackgroundColor3 = Color3.fromRGB(91, 18, 136)
+Aimbot.Position = UDim2.new(0.0769230798, 0, 0.0298507456, 0)
+Aimbot.Size = UDim2.new(0, 110, 0, 70)
+Aimbot.ZIndex = 3
+Aimbot.Font = Enum.Font.Nunito
+Aimbot.Text = "AIM"
+Aimbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.TextSize = 14.000
+
+Misc.Name = "Misc"
+Misc.Parent = Border
+Misc.BackgroundColor3 = Color3.fromRGB(91, 18, 136)
+Misc.Position = UDim2.new(0.0769230798, 0, 0.510447741, 0)
+Misc.Size = UDim2.new(0, 110, 0, 70)
+Misc.ZIndex = 3
+Misc.Font = Enum.Font.Nunito
+Misc.Text = "MISC"
+Misc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Misc.TextSize = 14.000
+
+Credits.Name = "Credits"
+Credits.Parent = Border
+Credits.BackgroundColor3 = Color3.fromRGB(91, 18, 136)
+Credits.Position = UDim2.new(0.0769230798, 0, 0.74925375, 0)
+Credits.Size = UDim2.new(0, 110, 0, 70)
+Credits.ZIndex = 3
+Credits.Font = Enum.Font.Nunito
+Credits.Text = "CREDITS"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 14.000
+
+discord.Name = "discord"
+discord.Parent = Main
+discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discord.BackgroundTransparency = 1.000
+discord.BorderColor3 = Color3.fromRGB(255, 255, 255)
+discord.BorderSizePixel = 0
+discord.Position = UDim2.new(0.277711123, 0, 0.123292394, 0)
+discord.Size = UDim2.new(0, 403, 0, 387)
+discord.ZIndex = 3
+discord.Font = Enum.Font.Nunito
+discord.Text = "https://discord.gg/2QSQjdSu5u"
+discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord.TextSize = 20.000
+discord.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
